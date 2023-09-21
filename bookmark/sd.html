@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        body{
+            background-image: url("ht.avif");
+        }
+        fieldset{
+            border-radius: 10px;
+            border-color: black;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
+        .image {
+            margin-right: 10px;
+        }
+        button{
+            margin-left: 150px;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: rgb(198, 70, 168);
+            border: 2px solid black;
+        }
+        textarea:hover{
+            background-color: red;
+            border-width: 2px;
+            border-color: black;
+            border-style: inset;
+        }
+        select:hover{
+            background-color: blueviolet;
+        }
+        /*.chat_box {
+            background-color: rgb(110, 110, 107);
+            padding: 10px;
+            border: 2px solid black;
+            width: 400px;
+            height: 350px;
+            position: fixed;
+            right: 50px;
+            bottom: 100px;
+        }*/
+        .query{
+            background-color: pink;
+            padding: 10px;
+            border: 2px solid black;
+            width: 400px;
+            height: 350px;
+            position: sticky;
+            top: 0;
+            left: 100%;
+        }
+        .query li{
+            background-color: black;
+            color: aliceblue;
+            list-style: none;
+        }
+        
+    </style>
+</head>
+<body>
+     <div>
+        <h1><center>RESTAURANT APP</center></h1>
+        <fieldset>
+            <h2><center>Hamzah</center></h2>
+            <div class="container">
+                <div class="image">
+                    <img src="./veg.jpeg" alt="image 1" width="200" height="125">
+                    <p> <b>Pasta</b></p>
+                </div>
+                <div class="image">
+                    <img src="./strtes1.jpeg" alt="image 2" width="200" height="125">
+                    <p><b>Veg-Starter</b></p>
+                </div>
+                <div class="image">
+                    <img src="./nveg.jpeg" alt="image 3" width="200" height="125">
+                    <p><b>Non-Veg Biryani</b></p>
+                </div>
+                <div class="image">
+                    <img src="./veg1.jpeg" alt="image 4" width="200" height="125">
+                    <p><b>Biryani</b></p>
+                </div>
+                <div class="image">
+                    <img src="./strtes2.jpeg" alt="image 5" width="200" height="125">
+                    <p><b>Momos</b></p>
+                </div>
+                <div class="image">
+                    <img src="./nveg2.jpeg" alt="image 6" width="200" height="125">
+                    <p><b>Fish fry</b></p>
+                </div>
+                <div class="image">
+                    <img src="./nveg1.jpg" alt="image 7" width="200" height="125">
+                    <p><b>Chicken soup</b></p>
+                </div>
+            </div>
+            <h2>Description of Restaurant in paragraph:</h2>
+            <p>A restaurant is a business that prepares and serves food and drinks to customers.Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast-food restaurants and cafeterias to mid-priced family restaurants, to high-priced luxury establishments.Early eating establishments recognizable as restaurants in the modern sense emerged in Song dynasty China during the 11th and 12th centuries. In large cities, such as Kaifeng and Hangzhou, food catering establishments catered to merchants who travelled between cities. Probably growing out of tea houses and taverns which catered to travellers, Kaifeng's restaurants blossomed into an industry that catered to locals as well as people from other regions of China. As travelling merchants were not used to the local cuisine of other cities, these establishments were set up to serve dishes familiar to merchants from other parts of China. Such establishments were located in the entertainment districts of major cities, alongside hotels, bars, and brothels.</p>
+            <h2>Menu</h2>
+            <a href="./menu.jpg" download><img src="./menu.jpg" alt="" width="300"height="400"></a>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7610.364853227156!2d78.389981!3d17.498803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91a8dcb76371%3A0x779cd37af96408a0!2sMehfil%20Restaurant!5e0!3m2!1sen!2sin!4v1693923050294!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"align="right"></iframe>
+            <div class="query">
+                <h2>Query Box</h2>
+                <li>Hi</li>
+                <p>Hello</p>
+                <p>How can i help you?</p>
+                <p>No Thanks..</p>
+                <input type="text" name="text box" id="" placeholder="Text here...">
+                <input type="button" value="Send" style="border-radius: 5px;">
+            </div>
+            <!-- <div class="chat_box">
+            <h2><center>Chat Box</center></h2>
+            <p>Hello</p>
+            <p style="text-align: right;" >Hello</p>
+            <p>How can i help you?</p>
+            <p style="text-align: right;">I need to track location</p>
+            <p>Kindly go to the location in the navbar</p>
+            <p style="text-align: right;">Thank you</p>
+            <input type="text" placeholder="Text here">
+            <button>Send</button>
+        </div> -->
+            <h2><center>Registration form for Restaurant</center></h2>
+            <label for="">Name:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="text" name="" id=""><br><br>
+            <label for="">Surname:</label>&nbsp
+            <input type="text" name="" id=""><br><br>
+            <label for="">Dining</label>
+            <input type="radio" name="" id="">
+            <label for="">Veg</label>
+            <input type="radio" name="" id="">
+            <label for="">Non-veg</label><br><br>
+            <label for="">Starters:</label>
+            <select name="" id="Starters"> 
+                <option value="Select">Select</option>
+                <option value="Momos">Momos</option>
+                <option value="Noodles">Noodles</option>
+                <option value="Chicken65">Chicken65</option>
+                <option value="Manchuriyan">Manchuriyan</option>
+            </select><br><br>
+            <div id="submit">
+                <button type="submit">Submit</button>
+            </div> 
+            <h2 style="text-align: center;">Feedback Form</h2>
+            <label for="">Queries:</label><br>
+            <textarea name="" id="" cols="30" rows="5"></textarea><br>
+            <label for="">Feedback:</label><br>
+            <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+            <div id="submit">
+                <button type="submit">Submit</button>
+            </div>
+            <footer>
+                <p style="text-align: center;">&copy;Hamzah.</p>
+            </footer>
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    text-transform: capitalize;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background:green;
+    color: white;
+    padding: 20px 15px;
+}
+.second{
+    margin: 10px 30px;
+    border: 1px solid black;
+    list-style: none;
+    padding: 10px 20px;
+    line-height: 6vh;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    border:1px solid black ;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Button Hover Grid Gap</title>
+    <style>
+        /* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for the container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the button */
+.hover-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Add a hover effect to the button */
+.hover-button:hover {
+    transform: scale(1.1);
+    + .grid{
+        gap: 50px;
+    } /* You can adjust the scale factor as needed */
+}
+
+/* Style the grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 20px; /* Initial gap between grid items */
+}
+
+/* Style the grid items (you can customize these styles) */
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="hover-button">Hover Me</button>
+        <div class="grid">
+            <!-- Your grid items go here -->
+            <div class="grid-item">Item 1</div>
+            <div class="grid-item">Item 2</div>
+            <div class="grid-item">Item 3</div>
+            <!-- Add more items as needed -->
+        </div>
+    </div>
+</body>
+</html>

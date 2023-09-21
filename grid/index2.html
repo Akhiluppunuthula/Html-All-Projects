@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            margin-left: 40px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+        }
+        .grid img{
+            width: 100%;
+        }
+        button:hover{
+            cursor: pointer;
+            + .grid{
+                gap: 50px;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <button>TOGGLE ME</button>
+    </div>
+    <div class="grid">
+        <div class="col1">
+            <img src="https://www.w3schools.com/w3images/rocks.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/sound.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/woods.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/rock.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/nature.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/mist.jpg" alt="">
+        </div>
+        <div class="col2">
+            <img src="https://www.w3schools.com/w3images/coffee.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/bridge.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/notebook.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/london.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/rocks.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/avatar_g.jpg" alt="">
+        </div>
+        <div class="col3">
+            <img src="https://www.w3schools.com/w3images/mist.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/workbench.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/gondol.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/skies.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/lights.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

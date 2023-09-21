@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.card{ 
+    min-width: 50%;
+    height: 60%;
+    background-color: aqua;
+    overflow: hidden;
+}
+ .card .first{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+.card .second{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(186, 239, 73);
+    align-items: center;
+}
+.card .third{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(71, 219, 230);
+    align-items: center;
+}
+.first #img1:hover{
+    background-color: rgb(43, 255, 0);
+    color: white;
+    object-fit: contain;
+    background-position: center;
+    cursor: pointer;
+    transition: 2s ease 2s;
+    transform: rotate(360deg);
+    /* transform: scale(5.5); */
+
+}
+.first #img1{
+    width: 33%;
+    height: 100%;
+}
+#img1 h1{
+    font-size: 2.5vh;
+    text-decoration: underline;
+}
+#img1 li{
+    list-style: none;
+    padding: 10px 5px;
+}
+.first #img2:hover{
+    background-image: url("https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZG9nfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60");
+    color: white;
+    object-fit: contain;
+    background-position: center;
+    cursor: pointer;
+    transition: 2s ease 1s;
+    transform: rotate(360deg);
+    background-size: cover;
+    background-position: center;
+    /* transform: scale(5.5); */
+
+}
+.first #img2{
+    width: 33%;
+    height: 100%;
+}
+#img2 h1{
+    font-size: 2.5vh;
+    text-decoration: underline;
+}
+#img2 li{
+    list-style: none;
+    padding: 10px 5px;
+}

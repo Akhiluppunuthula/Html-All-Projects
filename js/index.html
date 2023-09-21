@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        body{
+            background-color: rgb(213, 51, 137);
+        }
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .playlist1{
+            border: 2px inset black;
+            width: 350px;
+            height: 450px;
+           padding: 20px 0  0 20px;
+            margin: 20px;
+            background-color: rgba(245, 247, 249, 0.5);
+            border-radius: 10px;
+            margin-left: 50px;
+            outline: 1px solid white;
+            outline-offset: 10px;
+            justify-content: center;
+        }
+        .playlist2{
+            border: 2px solid black;
+            width: 350px;
+            height: 450px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: rgba(136, 185, 213, 0.3);
+            outline-offset: 10px;
+            outline: 1px solid white;
+            transition: all 3s ease-out 1s;
+            animation-name: njoy;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-direction: alternate-reverse;
+            animation-timing-function: ease-in-out;
+        }
+        .playlist2:hover{
+            width: 30%;
+            height: 10%;
+            transform: rotate(180deg);
+
+
+        }
+        [class^="playlist"]{
+            background-color: red;
+        }
+        @keyframes njoy {
+            0%{
+                background-color:rgb(135, 243, 102);
+                
+            }
+            50%{
+                background-color: aqua;
+            }
+            100%{
+                background-color:blue;
+                transform: scale(0.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <h1><u>Arjith Singh</u></h1>
+        </center>
+    </header>
+    <div class="main">
+        <div class="playlist1">
+            <img src="./Arjith.jpeg" alt="Arjith"><br>
+            <h3>1.Tere_Hawaale...</h3>
+            <audio controls>
+                <source src="./Tere_Hawaale.mp3">
+            </audio><br>
+            <h3>2.Ae_Dil_Hai_Mushkil...</h3>
+            <audio controls>
+                <source src="./Ae_Dil_Hai_Mushkil.mp3">
+            </audio><br>
+            <h3>3.Tum_Hi_Ho...</h3>
+            <audio controls>
+                <source src="./Tum_Hi_Ho.mp3">
+            </audio>
+        </div>
+        <div class="playlist2">
+            <img src="./Arjith.jpeg" alt="Arjith"><br>
+            <h3>1.Tere_Hawaale...</h3>
+            <audio controls>
+                <source src="./Tere_Hawaale.mp3">
+            </audio><br>
+            <h3>2.Ae_Dil_Hai_Mushkil...</h3>
+            <audio controls>
+                <source src="./Ae_Dil_Hai_Mushkil.mp3">
+            </audio><br>
+            <h3>3.Tum_Hi_Ho...</h3>
+            <audio controls>
+                <source src="./Tum_Hi_Ho.mp3">
+            </audio>
+        </div>
+    </div>
+    <div class="img1">
+        <img src="https://www.w3schools.com/w3images/wedding.jpg" alt="">
+        <h1>name</h1>
+    </div>
+</body> 
+</html>

@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cinzel:wght@500;800&family=Ysabeau+SC:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    background: url(122.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    overflow: hidden;
+
+}
+#page1 .name h6{
+    padding-left: 47vh;
+    font-size: .8vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+.field{
+    width: 90%;
+    height: 90%;
+    line-height: 9vh;
+    padding: 0vh 6vh;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    opacity: 0.9;
+    letter-spacing: -0.2vh;
+    
+
+}
+/* .details{
+    text-align: center;
+} */
+.page2{
+    width: 100%;
+    height: 100%;
+    background: url(144.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+.field2{
+    line-height: 4vh;
+    padding: 0vh 6vh;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    opacity: 0.9;
+    letter-spacing: -0.2vh;
+
+}
+.head{
+    line-height: 3vh;
+    padding: 0vh 6vh;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    /* opacity: 0.9; */
+    letter-spacing: -0.2vh;
+}
+.page3{
+    width: 100%;
+    height: 100%;
+    background: url(155.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+.field3{
+    line-height: 4vh;
+    padding: 0vh 6vh;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    opacity: 0.9;
+    letter-spacing: -0.2vh;
+}
+.field3 h1{
+    padding: 3.5vh 0vh;
+}
+.page4{
+    width: 100%;
+    height: 100%;
+    background: url(145.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+.field4{
+    /* width: 100%; */
+    height: 40%;
+    line-height: 4vh;
+     padding: 3vh 4vh; 
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    opacity: 0.9;
+    letter-spacing: -0.2vh;
+}
+.field42{
+    /* width: 100%; */
+    height: 60%;
+    line-height: 5vh;
+    padding: 0vh 4vh;
+    /* padding: 0vh 6vh; */
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    opacity: 0.9;
+    letter-spacing: -0.2vh;
+}
+.field42 h1{
+    opacity: 1.2;
+    font-weight: 300;
+}
+.page5{
+    width: 100%;
+    height: 100%;
+    background: rgb(237, 36, 187);
+    color: white;
+    overflow: hidden;
+}
+.field5{
+    line-height: 6vh;
+    padding: 0vh 6vh;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    opacity: 0.9;
+    letter-spacing: -0.2vh;
+}
+.field5 h1{
+    text-align: center;
+    padding: 5vh 0vh;
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cinzel:wght@500;800&family=Ysabeau+SC:wght@300;400&display=swap');
+
+.last{
+    width: 100%;
+    height: 100%;
+    background: url("back.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.card h2{
+    text-align: center;
+    margin:20px 0;
+    text-transform: uppercase;
+    letter-spacing: -0.2vh;
+}
+.card h1{
+    font-size: 2vh;
+    opacity: 0.6;
+    letter-spacing: -0.1vh;
+    text-transform: uppercase;
+
+}
+.card .hello{
+    padding: 2px;
+    margin: 10px;
+    /* line-height: 1vh; */
+
+    
+}
+.block h3{
+    /* text-align: right; */
+    /* padding-right: 26%; */
+    font-size: 2vh;
+    letter-spacing: -0.1vh;
+    line-height: 2vh;
+    opacity: 0.7;
+    text-transform: capitalize;
+}
+button{
+    margin-top: 30px;
+    /* margin-left: 80px; */
+    padding: 3px 58px;
+    border-radius:20px;
+    background: rgb(244, 118, 233);
+    cursor: pointer;
+
+    
+}
+.card h4{
+    margin-top: 40px;
+}
+.footer{
+    padding:10%;
+    display: flex;
+    font-weight: 600;
+    font-size: 4vh;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
