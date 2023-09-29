@@ -29,10 +29,10 @@
 // }
 // let cop = { ...ob,...oj }
 // console.log(cop);
-let arr = [3,5,7]
-let max = arr[0]
-for (let i of arr){
-    if(arr[i]>max){
-        max = arr[i];
-    }
-}
+// let arr = [3,5,7]
+// let max = arr[0]
+// for (let i of arr){
+//     if(arr[i]>max){
+//         max = arr[i];
+//     }
+// }

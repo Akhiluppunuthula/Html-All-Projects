@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cinzel:wght@500;800&family=Ysabeau+SC:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+    background: #bdb6b6;
+}
+.head{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: rgb(84, 243, 5);
+}
+.left2{
+    width: 10%;
+}
+.right2 ul{
+    /* width: 60%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+ul li{
+    border:1px solid black ;
+    padding: 10px 20px;
+}
+@media (max-width:600px) {
+    .left{
+        display: none;
+    }
+    .right2 ul{
+        display: none;
+    }
+}
+.nav button{
+    width: 10%;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    background: greenyellow;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+.middle{
+    width: 100%;
+    height: 50%;
+    background: #000;
+}
+.image{
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+}
+.text button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    background: greenyellow;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+
+}
+.bottom{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.bottom h3{
+    margin: 20px 0px;
+}
+.next{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #e0d8d8;
+}
+.next h1{
+    text-align: center;
+}
+#para
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    text-align-last: center;
+}
+.card{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.p1{
+    width: 30%;
+    height: 100%;
+    background: greenyellow;
+}
+.p2{
+    width: 30%;
+    height: 100%;
+    background: greenyellow;
+}
+.p3{
+    width: 30%;
+    height: 100%;
+    background: greenyellow;
+}
+.next img{
+    width:50%;
+    /* height: 50%; */
+    border-radius: 50%;
+    object-fit: contain;
+    background-position: center;
+    margin: 10% 25%;
+}
+.next h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.next p{
+    margin-left: 10px;
+}
+.righ{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+.last{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid greenyellow;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.form{
+    margin-top: 20px;
+    border-left: 2px solid greenyellow;
+    width: 50%;
+}
+.loc{
+    width: 100%;
+    line-height: 6vh;
+    margin-left: 10%;
+}
+.loc iframe{
+    width: 100%;
+    height: 80%;
+}
+.main1{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    /* width: 90%; */
+    /* max-width: 50%; */
+    background:red;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    cursor: pointer;
+    font-size: 1.6vh;
+    font-weight: 500;
+}
+.calculator .head{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+.calculator .head input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+}
+.equal{
+    width: 320px;
+}

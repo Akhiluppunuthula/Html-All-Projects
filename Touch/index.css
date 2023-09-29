@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: url("https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGFyayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
+    object-fit: cover;
+    color: white;
+    font-family: Reem Kufi, sans-serif !important;
+}
+.head{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: -4%;
+}
+.head img{
+    width: 36%;
+ 
+}
+.middle{
+    margin:4% 8% ;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 100%;
+    height: 100%;
+}
+.left img{
+    width: 20%;
+    height: 20%;
+}
+.left h1{
+    width: 100%;
+    font-size: 5.5vw;
+    margin-top: 10% ;
+    letter-spacing: 0.2vh;
+    line-height: 16vh;
+    color: #d32929;
+}
+.left p{
+    line-height: 8vh;
+    margin-top: 30px;
+    font-size: 5vh;
+    letter-spacing: 0.2vh;
+    color: rgba(235, 27, 232, 0.957);
+}
+.left h5{
+    margin: 20px 0px;
+    font-size: 4vh;
+    color: rgba(235, 27, 232, 0.957);
+}
+.download{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.download img{
+    width: 60%;
+    height: 100%;
+}
+.last{
+    width: 100%;
+    height: 70vh;
+
+}
+.last h1{
+    text-align: center;
+    font-size: 5vw;
+    word-spacing: -0.5.vh;
+    line-height: 16vh;
+    letter-spacing: -0.2vh;
+    color: #d32929;
+}
+.fd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-size: 4vh;
+}
+@media (max-width:600px){
+    .middle{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        width: 80%;
+        margin: 10px 10%;
+    }
+    .left h1{
+        width: 100%;
+        font-size: 3vh;
+        line-height: 4vh;
+        margin: 10px 10%;
+
+    }
+    .left p{
+        width: 100%;
+        font-size: 3vh;
+        line-height: 4vh;
+        margin: 10px 10%;
+    }
+    .left h5{
+        font-size: 3vh;
+        margin: 5px 10%;
+    }
+    .download{
+        margin: 10px 10%;
+    }
+    .last{
+        height: 30vh;
+    }
+    .last h1{
+        line-height: 4vh;
+    }
+    .fd {
+        display: flex;
+        flex-direction: column;
+    }
+    .last h4{
+        font-size: 3vh;
+    }
+}

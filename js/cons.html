@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hello</h2>
+    <hr>
+    <button id="increase">decrement</button>
+    <hr>
+    <button id="decrease">increment</button>
+    <span id="count">count:0</span>
+    <hr>
+
+
+    <script>
+        let count = document.getElementById("count")
+        let increment = document.getElementById("increase")
+        let decrement = document.getElementById("decrease")
+
+        let coun = 0;
+        function update(){
+            count.textContent = coun;
+        }
+        increment.addEventListener('click',function(){
+            coun++
+            update();
+        })
+
+        update()
+
+    </script>
+</body>
+</html>

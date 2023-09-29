@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn1">+</button>
+    <span id="count">count:</span>
+    <button id="btn2">-</button>
+
+
+
+    <script>
+        let btn1 = document.getElementById("btn1")
+        let btn2 = document.getElementById("btn2")
+        let count = document.getElementById("count")
+
+        btn1.addEventListener("click",function(){
+            count.value = count++
+        })
+        btn2.addEventListener("click",function(){
+            console.log("clicked -")
+        })
+    </script>
+</body>
+</html>
