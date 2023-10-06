@@ -67,3 +67,81 @@
 //     }
 // })
 // console.log(a)
+// function need(){
+//     return new Promise(function(resolve,reject){
+//         resolve("12");
+//         resolve("hi");
+//     })
+// }
+// need().then(function(data){
+//     console.log(data);
+// })
+
+// function promise(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(function(){
+//             reject("error")
+//         },100)
+//     })
+// }
+// function prom2(){
+//     return new Promise((resolve)=>{
+//         resolve("hello")
+//     }
+//     )
+// }
+// promise()
+// .then(prom2())
+// .then((res)=>{
+//     console.log(res)
+// })
+// .catch((err)=>{
+//     console.log(err);
+// })
+
+// function promise(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(function(){
+//             reject("error")
+//         },100)
+//     })
+// }
+// promise()
+// .then((res)=>{
+//     console.log(res)
+// },
+// (err)=>{
+//     console.log(err);
+// })
+// function promise(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(function(){
+//             reject("error")
+//         },100)
+//     })
+// }
+
+// promise()
+// .then(onSuccess(),failure())
+
+
+
+// function promise(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             resolve(1)
+//         },200)
+//     })
+// }
+// async function start(){
+//     let res = await promise()
+//     console.log(res)
+// }
+// start()
+
+// async function opera() {
+//     let data = await fetch("")
+//     let res = await data.json()
+//     console.log(res)
+// }
+// opera()

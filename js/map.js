@@ -24,3 +24,18 @@
 // })
 // console.log(an)
  
+
+
+// function add(arr){
+//     return arr.map((num)=>num*2)
+// }
+// console.log(add([1,2,3,4]))
+// function add(arr){
+//     return arr.filter((num)=>{
+//         if(num%2==0){
+//             return num
+//         }
+//     })
+   
+// }
+// console.log(add([1,2,3,4]))

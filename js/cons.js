@@ -44,3 +44,27 @@
 //         },2000)
 //     })
 // }
+
+// let person = {
+//     fname : "akhil",
+//     lname : "last",
+//     getIntro : function(city,place){
+//         return this.fname + " " + city + " "+place 
+//     }
+// }
+// let person1 = {
+//     fname :"helllo"
+// }
+// console.log(person.getIntro.call(person1,"hyd","hek"));
+
+let obj = {
+    getIntro:function()
+{
+    this.fname + "hoow are you" 
+}
+}
+let another = {
+    fname : "akhil"
+}
+let hello = obj.getIntro.bind(another)
+console.log(hello())

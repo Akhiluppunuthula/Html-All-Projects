@@ -89,4 +89,22 @@
 //   }
 //   return mul;
 // }
-// console.log(sum(7,5))
+// console.log(sum(7,5)
+
+// let child = document.getElementById("id");
+// child.innerHTML = "hi baby"
+// let element = document.createElement("p")
+// let para = document.createTextNode("this is a div");
+// element.appendChild(para)
+// child.appendChild(element)
+// element.style.color = "red"
+// element.innerHTML = "changed the html"
+// element.addEventListener("click",()=>{
+//     console.log("mouse moved")
+// })
+// let li = document.createElement("li")
+// li.innerHTML = "hihhihi"
+// child.appendChild(li)
+// linear search binary search 
+
+console.log("hello")
