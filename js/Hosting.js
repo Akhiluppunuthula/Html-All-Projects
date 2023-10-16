@@ -36,3 +36,17 @@
 //         max = arr[i];
 //     }
 // }
+
+// function sort(arr){
+//     let sortedArray = arr.sort((a,b)=>b-a)
+//     console.log(sortedArray)
+//     console.log(sortedArray[1])
+// }
+// console.log(sort([10,40,30,20,50]))
+// let pyramid = async ()=>{
+//     let data = await fetch("https://jsonplaceholder.typicode.com/users")
+//     let result =await data.json()
+//     console.log(result)
+// }
+// pyramid()
+

@@ -282,3 +282,190 @@
 //   }
 // }
 // console.log(find("5"))
+
+// ----------------power========
+// function power(units){
+//     if(units<100){
+//         return units*2 + (10/100)*units
+//     }
+//     else if(units>100 && units<200){
+//         return units*3.5 + (10/100)*units
+//     }
+//     else if(units>200 && units<500){
+//         return units*4.5 + (10/100)*units
+//     }
+//     else{
+//         return units*6 + (10/100)*units
+//     }
+
+// }
+// console.log(power(148))
+
+//======= palindrome=======
+// function palin(n){
+//     let rev=0
+//     let temp = n
+//     while(temp<0){
+//         return "Give an positive integer"
+//     }
+//         while(temp>0){
+//             last = temp%10;
+//             rev = rev*10 + last;
+//             temp = Math.floor(temp/10);
+//         }
+    
+//     if(n==rev){
+//         console.log("palindrome")
+//     }
+//     else{
+//         console.log("Not a palindrome")
+//     }
+// }
+
+// console.log(palin(121))
+//=========palindrome string======
+// function palin(str){
+//     let left = 0
+//     let right = str.length-1
+//     while(left<right){
+//         if(str[left]!==str[right]){
+//             console.log("no")
+//             return false;
+//         }
+//         left++
+//         right--
+//     }
+//     return true
+
+// }
+// console.log(palin("madam"))
+
+//========prime or not=======
+// function prime(n){
+//     let isPrime = true
+//     if(n<1){
+//         console.log("Enter a valid number")
+//     }
+//     else if(n>1){
+//         for(let i=2;i<n;i++){
+//             if(n%i==0){
+//                 isPrime=false
+//                 break
+//             }
+//         }
+//         if(isPrime){
+//             console.log("It is a prime number")
+//         }
+//         else{
+//             console.log("It is not a prime number")
+//         }
+//     }
+//     else{
+//         console.log("Not a prime")
+//     }
+// }
+// console.log(prime(8))
+
+//====bubble sort=======
+// function sort(arr){
+//     let n=arr.length
+//     for(let i=0;i<n-1;i++){
+//         for (let j=0;j<n-i-1;j++){
+//             if(arr[j]>arr[j+1]){
+//                 [arr[j],arr[j+1]]=[arr[j+1],arr[j]]
+//             }
+//         }
+//     }
+//     return arr
+// }
+// console.log(sort([1,474,74,3,2323,86,87]))
+
+
+// function simpleArraySum(ar) {
+//     // Write your code here
+//     let sum=0
+//     for(var i= 0;i<ar.length;i++){
+//         sum+=ar[i]
+//     }
+//     return sum
+
+// }
+// console.log(simpleArraySum([1,2,3,4,10,11]))
+
+
+// function plus(arr){
+//     let a=0
+//     let b=0
+//     let c=0
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i]>0){
+//             a++
+//         }
+//         else if(arr[i]<0){
+//             b++
+//         }
+//         else{
+//             c++
+//         }
+//     }
+//     console.log(a/arr.length)
+//     console.log(b/arr.length)
+//     console.log(c/arr.length)
+// }
+// console.log(plus([1,1,0,-1,-1]))
+
+// function star(n){
+//     for(let i=0;i<n;i++){
+//         for(j=n-i;j>0;j--){
+//             console.log("#")
+//         }
+//         console.log("")
+//     }
+// }
+// // console.log(star(4))
+// function findMinMaxSum(arr) {
+//     if (arr.length < 4) {
+//       console.error("Array should have at least 4 elements");
+//       return;
+//     }
+  
+//     // Sort the array in ascending order
+//     arr.sort((a, b) => a - b);
+  
+//     let minSum = 0;
+//     let maxSum = 0;
+  
+//     // Calculate the minimum sum (sum of the first four elements)
+//     for (let i = 0; i < 4; i++) {
+//       minSum += arr[i];
+//     }
+  
+    // Calculate the maximum sum (sum of the last four elements)
+//     for (let i = arr.length - 4; i < arr.length; i++) {
+//       maxSum += arr[i];
+//     }
+  
+//     return [minSum, maxSum];
+//   }
+  
+//   const arr = [1, 2, 3, 4, 5, 6, 7, 8]; // Replace this array with your own
+//   const [minSum, maxSum] = findMinMaxSum(arr);
+  
+  // console.log(minSum, maxSum);
+
+
+  // let a= "happy"
+  // let b = []
+  // for (let i=0; i<a.length; i++) {
+  //   if(a[i] == "p"){
+  //     b.push("i")
+  //   }
+  //   else{
+  //     b.push(a[i])
+  //   }
+  // } 
+  // let c = b.reverse().join('')
+  // console.log(c)
+// let a = "happy hood"
+// let b= a.reverse()
+// console.log(b)
